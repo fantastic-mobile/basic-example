@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{_ as d}from"./index--Pw4x7Jo.js";import{d as m,c as v,o as r,j as l,t as u,l as c,i as s,e as t,f,n as x,_ as y,H as g,b as k,w as o,k as B}from"./index-BjNVnGL4.js";import{_ as $}from"./index.vue_vue_type_script_setup_true_lang-wupz9KMs.js";const h={key:0,class:"prefix"},w={class:"text"},C={key:1,class:"suffix"},N=m({name:"Trend",__name:"index",props:{value:{},type:{default:"up"},prefix:{default:""},suffix:{default:""},reverse:{type:Boolean,default:!1}},setup(p){const a=p,n=v(()=>{let e=a.type==="up";return a.reverse&&(e=!e),e});return(e,i)=>{const _=y;return r(),l("div",{class:x(["flex items-center transition",`${f(n)?"c-green":"c-red"}`])},[e.prefix?(r(),l("span",h,u(e.prefix),1)):c("",!0),s("span",w,u(e.value),1),e.suffix?(r(),l("span",C,u(e.suffix),1)):c("",!0),t(_,{name:"i-ep:caret-top",rotate:f(n)?0:180,class:"ml-1 transition"},null,8,["rotate"])],2)}}}),V={};function T(p,a){const n=$,e=N,i=d;return r(),k(i,{navbar:""},{default:o(()=>[t(n,null,{default:o(()=>a[0]||(a[0]=[B(" 标记上升和下降趋势。通常用绿色代表“好”，红色代表“不好”，股票涨跌场景除外 ")])),_:1}),t(n,{title:"基础用法"},{default:o(()=>[s("p",null,[t(e,{value:"12.3"})]),s("p",null,[t(e,{value:"12.3",type:"down"})])]),_:1}),t(n,{title:"颜色反转"},{default:o(()=>[s("p",null,[t(e,{value:"12.3",reverse:""})]),s("p",null,[t(e,{value:"12.3",type:"down",reverse:""})])]),_:1}),t(n,{title:"前缀后缀"},{default:o(()=>[s("p",null,[t(e,{value:"12.3",prefix:"$"})]),s("p",null,[t(e,{value:"12.3",suffix:"%"})])]),_:1})]),_:1})}const S=g(V,[["render",T]]);export{S as default};
