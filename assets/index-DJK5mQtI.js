@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{_ as p}from"./index-DXrVz0H_.js";import{_ as m}from"./index.vue_vue_type_script_setup_true_lang-DTmx1vFl.js";import{d as x,k as r,o as c,n as u,a as n,b as e,t as i,f as v,u as _,z as h,p as y,K as g,c as $,w as o}from"./index-tPS3C4DU.js";const k={key:0,class:"prefix"},B={class:"text"},F={key:1,class:"suffix"},b=x({name:"FmTrend",__name:"index",props:{value:{},type:{default:"up"},prefix:{default:""},suffix:{default:""},reverse:{type:Boolean,default:!1}},setup(s){const l=s,t=h(()=>{let a=l.type==="up";return l.reverse&&(a=!a),a});return(a,f)=>{const d=v;return c(),r("div",{class:y(["flex items-center transition","".concat(_(t)?"c-green":"c-red")])},[s.prefix?(c(),r("span",k,i(s.prefix),1)):u("",!0),n("span",B,i(s.value),1),s.suffix?(c(),r("span",F,i(s.suffix),1)):u("",!0),e(d,{name:"i-ep:caret-top",rotate:_(t)?0:180,class:"ml-1 transition"},null,8,["rotate"])],2)}}}),w={},C={class:"flex flex-col gap-2"},N={class:"flex flex-col gap-2"},V={class:"flex flex-col gap-2"};function z(s,l){const t=b,a=m,f=p;return c(),$(f,{navbar:"","navbar-start-side":"back"},{default:o(()=>[n("div",null,[e(a,null,{default:o(()=>[n("div",C,[e(t,{value:"12.3"}),e(t,{value:"12.3",type:"down"})])]),_:1}),e(a,{title:"颜色反转"},{default:o(()=>[n("div",N,[e(t,{value:"12.3",reverse:""}),e(t,{value:"12.3",type:"down",reverse:""})])]),_:1}),e(a,{title:"前缀后缀"},{default:o(()=>[n("div",V,[e(t,{value:"12.3",prefix:"$"}),e(t,{value:"12.3",suffix:"%"})])]),_:1})])]),_:1})}const D=g(w,[["render",z]]);export{D as default};

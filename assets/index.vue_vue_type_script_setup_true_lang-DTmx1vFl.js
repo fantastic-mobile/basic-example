@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{d as h,L as b,r as v,k as i,o,n as c,a as g,p as l,u as t,E as n,v as f,e as x,t as y,a3 as C,c as k,_ as w,w as z,b as B,f as N}from"./index-tPS3C4DU.js";const $=h({name:"FmPageMain",__name:"index",props:{title:{default:""},collaspe:{type:Boolean,default:!1},height:{default:""},class:{},titleClass:{},mainClass:{}},setup(e){const s=e,d=b(),a=v(s.collaspe);function m(){a.value=!a.value}return(r,S)=>{const u=N,p=w;return o(),i("div",{class:l(t(n)("m-4 flex flex-col border rounded-lg bg-card transition-[background-color,border-color]",{"overflow-hidden":e.collaspe},s.class))},[d.title||e.title?(o(),i("div",{key:0,class:l(t(n)("border-b px-5 py-4 transition-border-color",s.titleClass))},[f(r.$slots,"title",{},()=>[x(y(e.title),1)])],2)):c("",!0),g("div",{class:l(t(n)("relative h-[calc-size(auto,size)] p-5 transition-height after:pointer-events-none after:absolute after:bottom-0 after:left-0 after:z-1 after:h-12 after:max-h-full after:w-full after:from-transparent after:to-[hsl(var(--card))] after:bg-gradient-to-b after:opacity-0 after:transition-opacity after:content-empty",{"overflow-hidden":e.collaspe,"after:opacity-100":t(a)},s.mainClass)),style:C({height:t(a)?e.height:""})},[f(r.$slots,"default"),e.collaspe?(o(),k(p,{key:0,variant:"link",size:"icon",class:l(["absolute inset-b-0 inset-s-1/2 transition-all -translate-x-1/2",{"rotate-x-180":!t(a)}]),onClick:m},{default:z(()=>[B(u,{name:"i-ep:arrow-down",class:"text-xl"})]),_:1},8,["class"])):c("",!0)],6)],2)}}});export{$ as _};
