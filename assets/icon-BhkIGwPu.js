@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{E as e,T as t,W as n,at as r,b as i,gt as a,w as o,wt as s,x as c}from"./vue-router-CRv8OWyd.js";import{l,v as u,y as d}from"./components-DtufhiyR.js";import"./settings-IUgw0dBy.js";import{t as f}from"./AppPageLayout-Bi2qQiQ2.js";var p={class:`space-x-2`},m=e({__name:`icon`,setup(e){let m=a(`https://picsum.photos/50`);function h(){m.value=``,m.value=`https://picsum.photos/50?random=${Math.random()}`}let g=new URL(``+new URL(`logo-CvGq432t.png`,import.meta.url).href,``+import.meta.url).href;return(e,a)=>{let _=d,v=u,y=l,b=f;return n(),c(b,{navbar:``,"navbar-start-side":`back`},{default:r(()=>[t(y,null,{default:r(()=>[a[3]||(a[3]=i(`p`,null,`单色 Icon`,-1)),i(`div`,null,[t(_,{name:`example-emotion-line`,class:`size-12`}),t(_,{name:`example-emotion-laugh-line`,class:`size-12`}),t(_,{name:`example-emotion-unhappy-line`,class:`size-12`})]),a[4]||(a[4]=i(`p`,null,`彩色 Icon`,-1)),i(`div`,null,[t(_,{name:`example-crown`,class:`size-12`}),t(_,{name:`example-star`,class:`size-12`}),t(_,{name:`example-vip`,class:`size-12`})]),a[5]||(a[5]=i(`p`,null,`Iconify Icon`,-1)),i(`div`,null,[t(_,{name:`i-carbon:4k`,class:`size-12`}),t(_,{name:`i-carbon:play-filled-alt`,class:`size-12`}),t(_,{name:`i-carbon:pause-filled`,class:`size-12`})]),a[6]||(a[6]=i(`p`,null,`网络图片`,-1)),t(_,{name:s(m),class:`size-12`},null,8,[`name`]),i(`div`,p,[t(v,{onClick:h},{default:r(()=>[...a[1]||(a[1]=[o(` 更改图片 `,-1)])]),_:1}),t(v,{onClick:a[0]||(a[0]=e=>m.value=``)},{default:r(()=>[...a[2]||(a[2]=[o(` 创建错误 `,-1)])]),_:1})]),a[7]||(a[7]=i(`p`,null,`本地图片`,-1)),t(_,{name:s(g),class:`size-12`},null,8,[`name`])]),_:1})]),_:1})}}});export{m as default};

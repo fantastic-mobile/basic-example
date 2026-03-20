@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{E as e,J as t,T as n,W as r,at as i,dt as a,gt as o,w as s,wt as c,x as l}from"./vue-router-CRv8OWyd.js";import{f as u,l as d,v as f}from"./components-DtufhiyR.js";import"./settings-IUgw0dBy.js";import{t as p}from"./VanFieldPicker-DB3-2Ggg.js";import{t as m}from"./AppPageLayout-Bi2qQiQ2.js";var h=e({__name:`index`,setup(e){let h=o(`plane`),g=o(50),_=o(`加载中...`);function v(){let{close:e}=u({type:h.value,size:g.value,text:_.value});setTimeout(()=>{e()},2e3)}return(e,o)=>{let u=p,y=t(`VanSlider`),b=t(`VanField`),x=t(`VanCellGroup`),S=t(`VanForm`),C=f,w=d,T=m;return r(),l(T,{navbar:``,"navbar-start-side":`back`},{default:i(()=>[n(w,null,{default:i(()=>[n(S,null,{default:i(()=>[n(x,null,{default:i(()=>[n(u,{modelValue:c(h),"onUpdate:modelValue":o[0]||(o[0]=e=>a(h)?h.value=e:null),label:`类型`,columns:[{text:`Plane`,value:`plane`},{text:`Chase`,value:`chase`},{text:`Bounce`,value:`bounce`},{text:`Wave`,value:`wave`},{text:`Pulse`,value:`pulse`},{text:`Flow`,value:`flow`},{text:`Swing`,value:`swing`},{text:`Circle`,value:`circle`},{text:`Circle Fade`,value:`circle-fade`},{text:`Grid`,value:`grid`},{text:`Fold`,value:`fold`},{text:`Wander`,value:`wander`}]},null,8,[`modelValue`]),n(b,{label:`尺寸`},{input:i(()=>[n(y,{modelValue:c(g),"onUpdate:modelValue":o[1]||(o[1]=e=>a(g)?g.value=e:null),min:20,max:200,step:10},null,8,[`modelValue`])]),_:1}),n(b,{modelValue:c(_),"onUpdate:modelValue":o[2]||(o[2]=e=>a(_)?_.value=e:null),label:`提示文字`},null,8,[`modelValue`])]),_:1})]),_:1}),n(C,{onClick:v},{default:i(()=>[...o[3]||(o[3]=[s(` 加载 Loading（演示控制在 2 秒后关闭） `,-1)])]),_:1})]),_:1})]),_:1})}}});export{h as default};

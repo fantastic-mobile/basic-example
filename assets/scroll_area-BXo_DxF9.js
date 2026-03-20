@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{At as e,C as t,E as n,K as r,T as i,W as a,at as o,b as s,dt as c,gt as l,m as u,wt as d,x as f}from"./vue-router-CRv8OWyd.js";import{a as p,c as m,l as h}from"./components-DtufhiyR.js";import"./settings-IUgw0dBy.js";import{t as g}from"./AppPageLayout-Bi2qQiQ2.js";var _={class:`flex-col-start gap-4`},v={class:`flex-col-start gap-4`},y={class:`flex-center-start gap-4`},b={class:`flex-center-start gap-4`},x={class:`flex-center-start`},S=n({__name:`index`,setup(n){let S=l(!0),C=l(!1);return(n,l)=>{let w=p,T=m,E=h,D=g;return a(),f(D,{navbar:``,"navbar-start-side":`back`},{default:o(()=>[i(E,null,{default:o(()=>[s(`div`,_,[s(`div`,v,[s(`div`,y,[l[2]||(l[2]=s(`div`,{class:`text-sm`},` 显示滚动条 `,-1)),i(w,{modelValue:d(S),"onUpdate:modelValue":l[0]||(l[0]=e=>c(S)?S.value=e:null)},null,8,[`modelValue`])]),s(`div`,b,[l[3]||(l[3]=s(`div`,{class:`text-sm`},` 显示遮罩 `,-1)),i(w,{modelValue:d(C),"onUpdate:modelValue":l[1]||(l[1]=e=>c(C)?C.value=e:null)},null,8,[`modelValue`])])]),i(T,{scrollbar:d(S),mask:d(C),class:`border rounded-md h-72 w-full`},{default:o(()=>[(a(),t(u,null,r(20,t=>s(`div`,{key:t,class:`text-sm p-4`},e(t),1)),64))]),_:1},8,[`scrollbar`,`mask`]),i(T,{horizontal:``,scrollbar:d(S),mask:d(C),class:`border rounded-md w-full`},{default:o(()=>[s(`div`,x,[(a(),t(u,null,r(20,t=>s(`div`,{key:t,class:`text-sm flex-center h-16 w-16`},e(t),1)),64))])]),_:1},8,[`scrollbar`,`mask`])])]),_:1})]),_:1})}}});export{S as default};
