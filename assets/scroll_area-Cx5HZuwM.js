@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me
+ */
+  
+import{B as e,Et as t,H as n,S as r,_ as i,ft as a,g as o,st as s,tt as c,u as l,x as u,xt as d,y as f}from"./vue.runtime.esm-bundler-D3oIR0xs.js";import{d as p,l as m,o as h}from"./src-BZ6AkV3N.js";import{t as g}from"./AppPageLayout-Bm2FbivV.js";var _={class:`flex-col-start gap-4`},v={class:`flex-col-start gap-4`},y={class:`flex-center-start gap-4`},b={class:`flex-center-start gap-4`},x={class:`flex-center-start`},S=r({__name:`_demo1`,setup(r){let i=a(!0),p=a(!1);return(r,a)=>{let g=h,S=m;return e(),f(`div`,_,[o(`div`,v,[o(`div`,y,[a[2]||(a[2]=o(`div`,{class:`text-sm`},` 显示滚动条 `,-1)),u(g,{modelValue:d(i),"onUpdate:modelValue":a[0]||(a[0]=e=>s(i)?i.value=e:null)},null,8,[`modelValue`])]),o(`div`,b,[a[3]||(a[3]=o(`div`,{class:`text-sm`},` 显示遮罩 `,-1)),u(g,{modelValue:d(p),"onUpdate:modelValue":a[1]||(a[1]=e=>s(p)?p.value=e:null)},null,8,[`modelValue`])])]),u(S,{scrollbar:d(i),mask:d(p),class:`border rounded-md h-72 w-full`},{default:c(()=>[(e(),f(l,null,n(20,e=>o(`div`,{key:e,class:`text-sm p-4`},t(e),1)),64))]),_:1},8,[`scrollbar`,`mask`]),u(S,{horizontal:``,scrollbar:d(i),mask:d(p),class:`border rounded-md w-full`},{default:c(()=>[o(`div`,x,[(e(),f(l,null,n(20,e=>o(`div`,{key:e,class:`text-sm flex-center h-16 w-16`},t(e),1)),64))])]),_:1},8,[`scrollbar`,`mask`])])}}}),C=r({__name:`index`,setup(t){return(t,n)=>{let r=p,a=g;return e(),i(a,{navbar:``},{default:c(()=>[u(r,null,{default:c(()=>[u(S)]),_:1})]),_:1})}}});export{C as default};
