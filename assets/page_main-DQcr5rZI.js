@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me
+ */
+  
+import{B as e,S as t,_ as n,b as r,g as i,tt as a,x as o}from"./vue.runtime.esm-bundler-pXVAXY_H.js";import{d as s,k as c,x as l}from"./src-BMfsPoh9.js";import{t as u}from"./AppPageLayout-3q-r4Vqb.js";import"./logo-B9PbTpwo.js";var d={};function f(t,i){let o=s;return e(),n(o,{class:`m-0`},{default:a(()=>[...i[0]||(i[0]=[r(` PageMain 是最常用的页面组件，几乎所有页面都会使用到 `,-1)])]),_:1})}var p=c(d,[[`render`,f]]),m={};function h(t,i){let o=s;return e(),n(o,{title:`你可以设置一个自定义的标题`,class:`m-0`},{default:a(()=>[...i[0]||(i[0]=[r(` 这里放页面内容 `,-1)])]),_:1})}var g=c(m,[[`render`,h]]),_={},v={class:`flex items-center justify-between`};function y(t,c){let u=l,d=s;return e(),n(d,{class:`m-0`},{title:a(()=>[i(`div`,v,[c[1]||(c[1]=r(` 通过 slot 设置标题 `,-1)),o(u,{size:`sm`,variant:`outline`},{default:a(()=>[...c[0]||(c[0]=[r(` 自定义按钮 `,-1)])]),_:1})])]),default:a(()=>[c[2]||(c[2]=r(` 这里放页面内容 `,-1))]),_:1})}var b=c(_,[[`render`,y]]),x={};function S(t,r){let o=s;return e(),n(o,{title:`带展开/收起功能`,collaspe:``,height:`20vh`,class:`m-0`},{default:a(()=>[...r[0]||(r[0]=[i(`h1`,{class:`text-2xl font-bold`},` Fantastic-mobile `,-1),i(`img`,{src:``+new URL(`logo-CvGq432t.png`,import.meta.url).href,class:`w-40`},null,-1)])]),_:1})}var C=c(x,[[`render`,S]]),w=t({__name:`index`,setup(t){return(t,r)=>{let c=s,l=u;return e(),n(l,{navbar:``},{default:a(()=>[i(`div`,null,[o(c,null,{default:a(()=>[o(p)]),_:1}),o(c,null,{default:a(()=>[o(g)]),_:1}),o(c,null,{default:a(()=>[o(b)]),_:1}),o(c,null,{default:a(()=>[o(C)]),_:1})])]),_:1})}}});export{w as default};
